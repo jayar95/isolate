@@ -8,6 +8,11 @@ isolate will create network namespaces for each application defined in
 an [isolate config file](example-config.json) which will isolate a given program
 to it's own network namespace with a dedicated local ip address + netlinks.
 
+After the network namespaces are set up, the applications you configure
+will be launched and routed via [echo's](https://echo.labstack.com/) reverse proxy features.
+
+When `isolate` terminates, it will clean up any lingering network namespaces / links / child processes.
+
 This was a sunday project so it's far from production-ready.
 
 ## Configuration Example
