@@ -1,0 +1,18 @@
+{
+    "applications": [
+        {
+            "name": "appname",
+            "executable": "/bin/path/runthis",
+            "port": "80",
+            "route": "/somepath",
+            "scheme": "http"
+        },
+        {
+            "name": "wildcardapp",
+            "executable": "/bin/path/runthis",
+            "port": "80",
+            "route": "/*somepath",
+            "scheme": "http"
+        }
+    ]
+}
