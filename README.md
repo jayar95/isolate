@@ -39,7 +39,7 @@ You can also view an example config at [isolate config file](example-config.json
 
 - go 1.16
 - `isolate` requires elevate privileges to run.
-- A linux operating system (Darkwin/Windows not tested)
+- A linux operating system (Darwin/Windows not tested)
 
 ## Build
 
